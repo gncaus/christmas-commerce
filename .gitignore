@@ -1,0 +1,24 @@
+# Playwright CLI output (may contain credentials)
+.playwright-cli/
+
+# Dependencies / build output
+node_modules/
+.next/
+.turbo/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel/
+
+# Env files (never commit secrets)
+.env*
+!.env.example
+
+# taste-skill working files (screenshots, direction sheets)
+.taste-skill/
+
+# Local tool data
+.claude-flow/
+.playwright/
